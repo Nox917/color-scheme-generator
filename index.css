@@ -52,7 +52,7 @@ select::picker-icon {
 #get-scheme{
     height: 40px;
     line-height: 35px;
-    font-size: 12px;
+    font-size: 10px;
     display: grid;
     grid-column: 8/10;
     vertical-align: middle;
