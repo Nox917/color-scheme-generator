@@ -14,13 +14,13 @@ document.getElementById("scheme-form").addEventListener("submit" , (e)=>{
         for( let color of data.colors){
             html += `
             <div class="scheme-color" style="background-color:${color.hex.value} ;"></div>
-            `
+        `
             hexes += `
-                <p class = "hexes">${color.hex.value}</p>
+                <p>${color.hex.value}</p>
             `
-        }
-
+    }
     document.getElementById("scheme-colors").innerHTML = html
+    document.querySelector(".hex-names").classList.add("flex")
     document.querySelector(".hex-names").innerHTML = hexes
         
     })
