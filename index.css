@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 300px;
+    min-height: 300px;
+}
+main{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    min-width: 300px;
+}
+
+form{
+    display: grid;
+    height: 40px;
+    gap: 5px;
+    grid-template-columns: repeat(9,1fr);
+}
+
+#seed-color{
+    height: 40px;
+    display: grid;
+    grid-column: 1;
+    border: 1px solid #D1D5DB;
+    border-radius: 1px;
+}
+#scheme-options{
+    height: 40px;
+    line-height: 30px;
+    display: grid;
+    grid-column: 2/8;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    color: #374151;
+    
+}
+/* dropdown arrow */
+select,
+::picker(select) {
+  appearance:base-select;
+}
+
+select::picker-icon {
+  color: #999999; /* Change the arrow color here */
+  transition: 0.4s rotate; /* Optional: for smooth rotation on open */
+}
+
+
+#get-scheme{
+    height: 40px;
+    line-height: 35px;
+    font-size: 12px;
+    display: grid;
+    grid-column: 8/10;
+    vertical-align: middle;
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    color: #374151;
+}
+
+#scheme-colors{
+    padding: 10px 0;
+    display: flex;
+    height: 150px;
+    
+}
+.scheme-color{
+    height: 350px;
+    width: 100vw;
+}
+
+.hex-names {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+    background-color: white;
+    border: 1px solid #D1D5DB;
+    border-radius: 5px;
+    height: 50px;
+    padding: 5px;
+    color: #374151;
+    
+    
+    
+}
