@@ -1,15 +1,19 @@
 body {
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 0;
     width: 500px;
     height: 500px;
+    background-color: #282A3E;
 }
 main{
-    padding: 10px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     height: 500px;
     width: 500px;
+    border: 1px solid #666666;
+    border-radius: 4px;
+    background-color: #14151F;
 }
 
 form{
@@ -24,17 +28,18 @@ form{
     height: 40px;
     display: grid;
     grid-column: 1;
-    border: 1px solid #D1D5DB;
-    border-radius: 1px;
+    border: 1px solid #666666;
+    border-radius: 6px;
+    background-color: D1D5DB ;
 }
 #scheme-options{
     height: 40px;
     line-height: 30px;
     display: grid;
     grid-column: 2/8;
-    border: 1px solid #D1D5DB;
+    border: 1px solid #666666;
     border-radius: 6px;
-    color: #374151;
+    color: #D1D5DB;
     
 }
 /* dropdown arrow */
@@ -56,15 +61,19 @@ select::picker-icon {
     display: grid;
     grid-column: 8/10;
     vertical-align: middle;
-    border: 1px solid #D1D5DB;
-    border-radius: 4px;
-    color: #374151;
+    border: 1px solid #666666;
+    border-radius: 6px;
+    color: #D1D5DB;
+    background-color: #14151F;
 }
 
 #scheme-colors{
-    padding: 10px 0;
+    margin: 10px 0px;
     display: flex;
-    max-height: 350px;
+    height: 350px;
+    width: 500px;
+    border:  1px solid #666666;
+    
     
 }
 .scheme-color{
@@ -77,9 +86,9 @@ select::picker-icon {
     display: none;
     justify-content: space-around;
     align-items: center;
-    background-color: white;
-    border: 1px solid #D1D5DB;
-    border-radius: 5px;
+    background-color: #D1D5DB;
+    border: 1px solid #666666;
+    border-radius: 6px;
     height: 40px;
     padding: 5px 0px;
     color: #374151;
